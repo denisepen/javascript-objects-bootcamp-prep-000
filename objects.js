@@ -4,5 +4,5 @@ function updatePlaylist(playlist,artistName, songTitle ){
   playlist.artistName = 'Phil Ochs'
   playlist.songTitle ="Here's to the State of Mississippi"
 
-return playlist
+return playlist.artistName + playlist.songTitle
 }
